@@ -18,6 +18,7 @@ services:
       MC_MEM_MIN: 4G
       MC_MEM_MAX: 8G
       MC_RCON_PASSWORD: ${MC_RCON_PW}
+      MC_WHITELIST: "true"
     volumes:
       - mcdata:/minecraft/data
       - ./plugins:/minecraft/data/plugins
